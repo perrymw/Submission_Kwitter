@@ -1,0 +1,144 @@
+body {
+  text-shadow: 1px 1px grey !important;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#buttonRow {
+  display:flex !important;
+  flex-direction: row !important;
+}
+
+#settings {
+  display:flex !important;
+  position: relative !important;
+  justify-content: first baseline !important;
+  z-index: 200 !important;
+  padding-top: -100px !important;
+}
+
+#loginBackground {
+  background-color: rgba(245, 245, 245, 0.479) !important;
+  display:flex !important;
+  justify-content: center !important;
+  align-content: center !important;
+  max-width: 800px !important;
+  margin-left: 3px !important;
+  margin: auto !important;
+  align-items: flex-end !important;
+  background-image: url("https://www.rezatec.com/wp-content/uploads/forest1_new-1280x600.jpg") !important;
+}
+
+#defaultProf{
+  margin-left: -480px !important
+}
+
+#profileHead{
+  margin: 5px;
+  padding-bottom: 50px;
+}
+
+.column{
+  min-width: 333px !important;
+}
+
+#setPiles{
+  width:366px !important
+}
+textarea{
+  width:100% !important
+}
+#background {
+  background-color: rgba(245, 245, 245, 0.479) !important;
+  display:flex !important;
+  flex-direction: column !important; 
+  justify-content: center !important;
+  align-content: center !important;
+  max-width: 1000px !important;
+  margin-left: 3px !important;
+  margin: auto !important;
+  align-items: center !important;
+}
+
+#profileInfo{
+  margin:auto !important
+}
+
+#left.column{
+  border-right: 1px solid !important
+}
+
+#right.column{
+  border-left: 1px solid !important
+}
+img {
+  display: flex !important; 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#mid-Col{
+  background-color: rgba(255, 255, 255, 0.698); 
+}
+
+#right-Col, #left-Col {
+  background-color: rgba(151, 143, 143, 0.356); 
+}
+
+#navBar-Container{
+  background-color: white;
+  margin-bottom: 15px;  
+}
+
+
+li{
+  border: 2px solid black;
+  background-color: rgba(253, 253, 253, 0.603);
+}
+
+#settings{
+  display: inline !important;
+  width: 100% !important;
+  position: absolute;
+  z-index: 5 !important;
+}
+
+#profilePic, #profilePic2, #coverPic, #profileinfo2, #postInfo, #userPosts, #userFriendsPosts, #friendsPostInfo, .test-Col {
+  background-color: rgba(255, 255, 255, 0.397) ; 
+}
+
+#coverPic, #profilePic {
+  background-color: rgb(13, 100, 13); 
+}
+
+#userProfileDiv, .userPostProfileImage{
+  height: 50x; 
+  width: 50px; 
+  
+}
+
+#chitPost-Container {
+  height: 100px; 
+}
+
+#break{
+  background-color: green; 
+  height: 5px; 
+  color: white; 
+}
+
+#temp{
+  z-index: 10;
+}
+
+.chitPost-Container{
+  display: flex;
+  border: 1px dotted black;
+  margin: 10px;
+}
