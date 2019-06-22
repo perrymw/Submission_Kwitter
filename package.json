@@ -2,7 +2,7 @@
   "name": "kwitter",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/perrymw/Submission_Kwitter",
+  "homepage": "https://github.io/perrymw/Submission_Kwitter",
   "dependencies": {
     "connected-react-router": "^6.3.1",
     "gulp": "^4.0.2",
