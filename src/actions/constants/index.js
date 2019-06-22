@@ -1,4 +1,4 @@
-export const domain = "https://kwitter-api.herokuapp.com";
+export const domain = "https://se5-scrum-team-2-kwitter-api.herokuapp.com/";
 // export const domain = "http://localhost:3000";
 
 export const jsonHeaders = {
