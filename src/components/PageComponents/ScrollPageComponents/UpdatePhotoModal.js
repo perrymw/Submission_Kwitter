@@ -26,11 +26,12 @@ class ProfilePic extends Component {
       </div>}
       size='small'
     >
-      <Header content="New User Form" />
+      <Header content="Change your picture" />
       <Modal.Content>
         <Form onSubmit={this.formSubmit}>
             <Input type="file" name="picture"></Input>
-            <br />
+            <br/>
+            <p>File must be under 200 KB</p>
             <Button type="submit">uploadPhoto</Button>
         </Form>
       </Modal.Content>

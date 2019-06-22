@@ -13,28 +13,9 @@ class ChitGroups extends Component {
 
   render() {
     return (
-      // <SegmentGroup className="left-ColDash">
-      //   <h2>TOP CHITS...</h2>
-      //   <Segment vertical color="black" padded loading>
-      //     <Grid.Row>[insert chit here]</Grid.Row>
-      //     <Grid.Row>[insert chit here]</Grid.Row>
-      //     <Grid.Row>[insert chit here]</Grid.Row>
-      //   </Segment>
-      //   <h2>TOP WORDS...</h2>
-      //   <Segment vertical color="black" padded loading>
-      //     <Grid.Row>[insert chit here]</Grid.Row>
-      //     <Grid.Row>[insert chit here]</Grid.Row>
-      //   </Segment>
-      //   <h2>TOP SQUIRRELS and ELITES...</h2>
-      //   <Segment vertical color="black" padded loading>
-      //     <Grid.Row>[insert chit here]</Grid.Row>
-      //     <Grid.Row>[insert chit here]</Grid.Row>
-      //     <Grid.Row>[insert chit here]</Grid.Row>
-      //   </Segment>
-      // </SegmentGroup >
       <React.Fragment>
         {this.props.chits.map(chit => (
-              <Chit key={chit.id} text={chit.text} time={chit.createdAt} self={chit} reRenderMessages={this.props.getMessagesAction} />))}
+              <Chit key={chit.id} id={chit.userId} text={chit.text} time={chit.createdAt} self={chit} reRenderMessages={this.props.getMessagesAction} />))}
       </React.Fragment>
     );
   }

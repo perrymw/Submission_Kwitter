@@ -37,7 +37,7 @@ class NavBar extends Component {
           </Menu.Item>
           <Menu.Menu position="right">
             <Menu.Item>
-              <NavLink to="/newsfeed">
+              <NavLink to="/profile">
                 <Menu.Item
                   name="Profile"
                   active={activeItem === "Profile"}

@@ -1,4 +1,4 @@
-import { ProfileInfo, ProfilePic, PostInfo, NavBar, Chit, UpdatePhotoModal, ChitGroupsUserProfile } from "../PageComponents/ScrollPageComponents"
+import { ProfileInfo, ProfilePic, PostInfo, NavBar, ChitGroupsUserProfile } from "../PageComponents/ScrollPageComponents"
 import defaultSquirrel from "../../pictures/profileSquirrel.jpeg";
 import settings from "../../pictures/settingsAcorn.png";
 import { Grid } from "semantic-ui-react";

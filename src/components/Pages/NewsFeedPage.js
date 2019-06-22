@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid } from "semantic-ui-react";
 import NavBar from "../PageComponents/ScrollPageComponents/NavBar";
-import Chit from "../PageComponents/ScrollPageComponents/Chit"
+
 import ChitGroups from "../PageComponents/ScrollPageComponents/ChitGroups";
 
 class NewsFeedPage extends Component {
