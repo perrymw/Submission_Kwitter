@@ -1,5 +1,5 @@
 import configureStore, { history } from "./configureStore";
-import { ConnectedRouter, connectRouter } from "connected-react-router";
+import { ConnectedRouter } from "connected-react-router";
 import * as serviceWorker from "./serviceWorker";
 import 'semantic-ui-css/semantic.min.css'
 import { Provider } from "react-redux";

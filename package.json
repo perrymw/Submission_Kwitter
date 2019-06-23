@@ -23,6 +23,7 @@
     "semantic-ui-react": "^0.87.1"
   },
   "scripts": {
+    "script": "react-scripts script",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

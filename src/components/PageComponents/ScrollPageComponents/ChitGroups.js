@@ -24,7 +24,7 @@ class ChitGroups extends Component {
 export default connect(
   ({ messages, users }) => {
     return {
-      chits: messages.message && messages.message.messages || [],
+      chits: (messages.message && messages.message.messages) || [],
       users: users.userId,
     };
   },

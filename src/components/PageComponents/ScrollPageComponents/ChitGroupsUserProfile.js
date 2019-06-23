@@ -31,7 +31,7 @@ class ChitGroupsUserProfile extends Component {
 export default connect(
   ({ messages, auth }) => {
     return {
-      chits: messages.message && messages.message.messages || [],
+      chits: (messages.message && messages.message.messages) || [],
       userid: auth.login.id
     };
   },

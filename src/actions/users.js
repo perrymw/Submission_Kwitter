@@ -75,7 +75,7 @@ const getUserPhoto = userData => (dispatch, getState) => {
     type: GET_USER_PHOTO
   });
   const store = getState()
-  let userId = store.auth.login && store.auth.login.id || 5
+  let userId = (store.auth.login && store.auth.login.id) || 5
 
   return fetch(url+`/${userId}/picture`)
     .then(result => {

@@ -39,7 +39,7 @@ class LikeButton extends Component {
               <i className="heart icon"></i> Like
             </div>
             <label className="ui basic label">
-              {this.props.message && this.props.message.likes.length || 0}
+              {(this.props.message && this.props.message.likes.length) || 0}
             </label>
           </div>
       )

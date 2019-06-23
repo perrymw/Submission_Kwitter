@@ -40,7 +40,7 @@ class ProfilePic extends Component {
   }
 }
 
-export default connect(({ })=>{
+export default connect(({state})=>{
 
 },
   { updateUserPhoto }
