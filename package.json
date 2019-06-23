@@ -5,6 +5,7 @@
   "homepage": "https://github.io/perrymw/Submission_Kwitter",
   "dependencies": {
     "connected-react-router": "^6.3.1",
+    "gh-pages": "^2.0.1",
     "gulp": "^4.0.2",
     "history": "^4.7.2",
     "moment": "^2.24.0",
@@ -23,7 +24,9 @@
     "semantic-ui-react": "^0.87.1"
   },
   "scripts": {
-    "script": "react-scripts script",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b dev -d build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
